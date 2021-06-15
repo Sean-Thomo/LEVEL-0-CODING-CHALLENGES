@@ -1,8 +1,9 @@
 function areaOfTriangle(a, b, c) {
+    //Calculating the SemiPerimeter
     var semiPerimeter = 1/2 *(a + b + c);
-    // Herons formula
     var s, area;
     s = semiPerimeter;
+    // Herons formula
     area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
     console.log(area);
 }
