@@ -4,12 +4,14 @@ function printVowels(string){
   vowelList = ['a', 'e', 'i', 'o', 'u'];
   vowelsFound = "";
 
+  //Iterate over characters in the string
   for (const char of str) {
     if (vowelList.indexOf(char) !== -1) {
-      vowelsFound += char;
+      vowelsFound +=" " + char;
     }
   }
   console.log("Vowels :" + vowelsFound);
 }
 
+printVowels("umuzi today")
 printVowels("Umuzi today")
