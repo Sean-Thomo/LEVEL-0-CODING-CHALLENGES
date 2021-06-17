@@ -6,9 +6,10 @@ function maxNumber (a, b, c){
         maxValue = b;
     }
     if (c > maxValue) {
-        maxValue = c
+        maxValue = c;
     }
-    console.log(maxValue)
+    return maxValue;
 }
 
 maxNumber(1,22,3)
+maxNumber(1,2,3)
