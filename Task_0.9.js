@@ -5,13 +5,13 @@ function printVowels(string){
   vowelsFound = "";
 
   //Iterate over characters in the string
-  for (const char of str) {
-    if (vowelList.indexOf(char) !== -1) {
-      vowelsFound +=" " + char;
+  for (const x of str) {
+    if (vowelList.indexOf(x) !== -1) {
+      vowelsFound +=x + ", "
     }
   }
+  vowelsFound = Array.from(new Set(vowelsFound.split(', '))).toString();
   console.log("Vowels :" + vowelsFound);
 }
 
-printVowels("umuzi today")
-printVowels("Umuzi today")
+printVowels("Umuzi")
