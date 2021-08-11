@@ -6,11 +6,11 @@ function commonLetters(stringOne, stringTwo) {
     for (const i of string_1){
         for (const x of string_2){
             if (i === x){
-                output += x + "," ;
+                output += x;
             }
         }
     }
-    common = Array.from(new Set(output.split(','))).toString();
+    common = Array.from(new Set(output.slice(', '))).toString();
     console.log("Common letters: " + common)
 }
 commonLetters('house', 'computers');
