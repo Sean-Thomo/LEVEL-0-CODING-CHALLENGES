@@ -3,8 +3,8 @@ function commonLetters(stringOne, stringTwo) {
     let output = "";
     stringOne, stringTwo.toLowerCase();
     
-    for (const i of string_1){
-        for (const x of string_2){
+    for (const i of stringOne){
+        for (const x of stringTwo){
             if (i === x){
                 output += x;
             }
