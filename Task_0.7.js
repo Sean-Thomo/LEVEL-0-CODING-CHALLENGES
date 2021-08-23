@@ -5,7 +5,7 @@ function celsiusToFahrenheit(temp) {
 
 function fahrenheitToCelsius(temp) {
     var c = (temp -32 ) * 5/9;
-    return `${c} C;
+    return `${c} C`;
 }
 
 celsiusToFahrenheit(0);
