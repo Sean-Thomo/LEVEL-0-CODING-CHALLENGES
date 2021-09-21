@@ -1,4 +1,4 @@
-var x, y, z, a, b
+let x, y, z, a, b
 
 x = 1 + 1 * 2;
 y = (1 + 1) * 2;

@@ -1,5 +1,5 @@
 function printVowels(string){
-  var str,vowelsFound, vowelList;
+  let str,vowelsFound, vowelList;
   str = string.toLowerCase();
   vowelList = ['a', 'e', 'i', 'o', 'u'];
   vowelsFound ="";

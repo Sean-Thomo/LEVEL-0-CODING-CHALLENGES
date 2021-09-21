@@ -1,5 +1,5 @@
 function numberToHoursAndMinutes(number){
-    var hours,minutes;
+    let hours,minutes;
     hours = Math.floor(number /60);
     minutes = number % 60;
     if (hours > 1 && minutes > 1) {

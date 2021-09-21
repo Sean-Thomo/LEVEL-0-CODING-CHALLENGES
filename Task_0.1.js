@@ -1,4 +1,4 @@
-var x = 0, y = 1;
+let x = 0, y = 1;
 console.log(x);
 console.log(y);
 

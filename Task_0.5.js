@@ -1,6 +1,6 @@
 function areaOfTriangle(a, b, c) {
-    var semiPerimeter = 1/2 *(a + b + c);
-    var s, area;
+    const semiPerimeter = 1/2 *(a + b + c);
+    let s, area;
     s = semiPerimeter;
     area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
     return area;
