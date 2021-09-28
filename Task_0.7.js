@@ -1,11 +1,11 @@
 function celsiusToFahrenheit(temp) {
-    const f = (temp * 9/5) + 32;
-    return `${f} F`;
+    const fahrenheit = (temp * 9/5) + 32;
+    return `${fahrenheit} F`;
 };
 
 function fahrenheitToCelsius(temp) {
-    const c = (temp -32 ) * 5/9;
-    return `${c} C`;
+    const celsius = (temp -32 ) * 5/9;
+    return `${celsius} C`;
 }
 
 console.log(celsiusToFahrenheit(0));
