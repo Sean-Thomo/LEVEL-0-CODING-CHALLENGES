@@ -1,7 +1,8 @@
 function commonLetters(stringOne, stringTwo) {
     let common = "";
     let output = "";
-    stringOne, stringTwo.toLowerCase();
+    stringOne = stringOne.toLowerCase();
+    stringTwo = stringTwo.toLowerCase();
     
     for (const i of stringTwo){
         for (const x of stringOne){
@@ -13,4 +14,4 @@ function commonLetters(stringOne, stringTwo) {
     common = Array.from(new Set(output.slice(', '))).toString();
     console.log("Common letters: " + common)
 }
-commonLetters('house', 'computers');
+commonLetters('hOUsE', 'cOmpUtErs');
